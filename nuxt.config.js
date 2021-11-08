@@ -1,5 +1,7 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+  buildModules: ['@nuxtjs/tailwindcss'],
+  
   ssr: false,
 
   // Target: https://go.nuxtjs.dev/config-target
